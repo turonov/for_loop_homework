@@ -8,7 +8,7 @@ def main(n):
     """
     a=''
     for i in range(n):
-        a+=","+str (i)
+        a+=str (i)
     return a
 
 print(main(5))
