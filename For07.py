@@ -6,4 +6,9 @@ def main(N):
     Returns:
         int: return  answer
     """
-    return
+    a = 0
+    for i in range(N):
+        a+=i+1
+    return a
+
+print(main(10))
