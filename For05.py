@@ -7,9 +7,9 @@ def main(A,B):
     Returns:
         list: return  answer
     """
-    a=0
-    for i in range(B,A,1):
-        a+=i
-    return a
+    list = []
+    for i in range(A, B+1):
+       list = list + [i]
+    return list(range(-1))
 
-print(main(6, 1))
+print(main(1, 8))
