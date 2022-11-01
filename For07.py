@@ -8,7 +8,7 @@ def main(N):
     """
     a = 0
     for i in range(N):
-        a+=i+1
+        a+=i%2!=0
     return a
 
 print(main(10))
