@@ -1,5 +1,3 @@
-import py_compile
-
 
 def main(n):
     """
@@ -9,11 +7,9 @@ def main(n):
     Returns:
         list: return  answer
     """
-    list=[]
-    a=0
-    while a<n:
-        list=list+[a]
-        a+=1
-    return list
-print(main(6))
+    ans = []
+    for i in range(n):
+        ans.append(i)
+    return ans 
+print(main(11))
 
